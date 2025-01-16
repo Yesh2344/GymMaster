@@ -81,3 +81,4 @@ This project is open source and available under the [MIT License](LICENSE).
 If you have any questions, feel free to reach out to me at [your-email@example.com](mailto:yeswanthsoma83@example.com).
 
 Happy gym managing!
+Pushed to the master branch.
