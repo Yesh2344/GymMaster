@@ -166,8 +166,3 @@ class GymMasterApp:
             self.equipment_list.insert(tk.END, f"{item['name']} - Maintenance: {item['maintenance']}")
 
 
-# ---------- Launch ----------
-if __name__ == "__main__":
-    root = tk.Tk()
-    app = GymMasterApp(root)
-    root.mainloop()
