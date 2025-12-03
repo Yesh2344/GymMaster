@@ -69,6 +69,7 @@ class GymMasterApp:
         if name and age:
             self.member_data.append({"name": name, "age": age})
             save_data(FILES["members"], self.member_data)
+# Added comment
             self.update_member_list()
         else:
             messagebox.showwarning("Input Error", "Please provide both name and age.")
