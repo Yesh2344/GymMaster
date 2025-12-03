@@ -79,6 +79,7 @@ class GymMasterApp:
             del self.member_data[selection[0]]
             save_data(FILES["members"], self.member_data)
             self.update_member_list()
+# Added comment
 
     def update_member_list(self):
         self.member_list.delete(0, tk.END)
