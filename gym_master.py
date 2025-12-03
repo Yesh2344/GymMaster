@@ -133,6 +133,7 @@ class GymMasterApp:
         self.equipment_data = load_data(FILES["equipment"])
 
         tk.Label(self.equipment_tab, text="Equipment").grid(row=0, column=0)
+# Added comment
         tk.Label(self.equipment_tab, text="Maintenance Date").grid(row=0, column=1)
 
         self.equipment_name = tk.Entry(self.equipment_tab)
