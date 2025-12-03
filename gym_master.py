@@ -40,6 +40,7 @@ class GymMasterApp:
         self.tabControl.pack(expand=1, fill="both")
 
         self.init_member_tab()
+# Added comment
         self.init_class_tab()
         self.init_equipment_tab()
 
