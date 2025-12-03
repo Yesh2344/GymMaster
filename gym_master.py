@@ -15,6 +15,7 @@ def load_data(file_name):
     if os.path.exists(file_name):
         with open(file_name, "r") as f:
             return json.load(f)
+# Added comment
     return []
 
 def save_data(file_name, data):
