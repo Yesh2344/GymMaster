@@ -168,6 +168,7 @@ class GymMasterApp:
             self.equipment_list.insert(tk.END, f"{item['name']} - Maintenance: {item['maintenance']}")
 
 
+# Added comment
 
 # ---------- Launch ----------
 if __name__ == "__main__":
