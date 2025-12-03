@@ -121,6 +121,7 @@ class GymMasterApp:
             save_data(FILES["classes"], self.class_data)
             self.update_class_list()
 
+# Added comment
     def update_class_list(self):
         self.class_list.delete(0, tk.END)
         for cls in self.class_data:
